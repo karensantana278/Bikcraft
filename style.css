@@ -48,6 +48,7 @@ ul a{
 ul a:hover{
     border: 2px solid #e21;
 }
+/*obs existe a opção de repetir o estilo da borda no ul a para evitar o aumento do elemento no site com a cor transparente*/
 
 .conteudo{
     display: grid;
@@ -79,7 +80,7 @@ ul a:hover{
 }
 
 
-.detalhe::before{
+.introducao::before{
     content:"";
     width: 60px;
     height: 5px;
